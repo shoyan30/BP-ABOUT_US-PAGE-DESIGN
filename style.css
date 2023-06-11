@@ -9,13 +9,13 @@ body{
    
 }
 header{
-    height: 200px;
+    height: 150px;
     box-shadow:  5px 10px 10px gray;
 }
 
 .logo img{
-    height: 150px;
-    width: 300px;
+    height: 80px;
+    width: 200px;
 }
 nav{
    
@@ -28,16 +28,14 @@ nav{
 nav a{
     text-decoration: none;
     margin-left: 25px;
-    font-size: 30px;
+    font-size: 20px;
     color: black;    
 }
 nav a:hover{
     text-decoration: underline;
     color: red;    
 }
-.right{
-    margin-right: 85px;
-}
+
 .right button{
     padding: 10px;
     font-size: 20px;
@@ -51,10 +49,10 @@ nav a:hover{
 
 .information{
     width: 40%;
-    font-size: 30px;
+    font-size: 20px;
 }
 .social-link{
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .footer-info{
@@ -66,21 +64,21 @@ nav a:hover{
 }
 
 .career{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .career img{
-    height: 150px;
-    width: 300px;
+    height: 80px;
+    width: 150px;
 }
 
 .privacy{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 100px;
 }
 
 .support{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 100px;
 }
 
@@ -107,14 +105,14 @@ footer{
 }
 
 .copy-write{
-    font-size: 25px;
+    font-size: 15px;
     color: white;
 }
 
 .cookie ul li{
     display: inline;
     margin-right: 20px;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
 }
 .checkbtn{
