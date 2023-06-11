@@ -1,0 +1,150 @@
+body{
+    background-color:#E5E5E5; ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-section{
+    width: 80%; 
+    margin: 0 auto; 
+   
+}
+header{
+    height: 200px;
+    box-shadow:  5px 10px 10px gray;
+}
+
+.logo img{
+    height: 150px;
+    width: 300px;
+}
+nav{
+   
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;      
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 30px;
+    color: black;    
+}
+nav a:hover{
+    text-decoration: underline;
+    color: red;    
+}
+.right{
+    margin-right: 85px;
+}
+.right button{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.information{
+    width: 40%;
+    font-size: 30px;
+}
+.social-link{
+    font-size: 100px;
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.career{
+    font-size: 30px;
+}
+
+.career img{
+    height: 150px;
+    width: 300px;
+}
+
+.privacy{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.support{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.support a{
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: white;
+}
+.support a:hover{
+    color: red;
+    text-decoration: underline;
+}
+footer{
+    
+    background-color: rgb(101, 101, 169);
+}
+.end-footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy-write{
+    font-size: 25px;
+    color: white;
+}
+
+.cookie ul li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    margin-top: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px) {
+    .footer-info{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
+        height: 1000px;
+        background-color: rebeccapurple;
+    }
+    .right{
+        margin-top: 50px;
+       
+    }
+    header{
+        height: 400px;
+    }
+    nav a{
+        display: block;
+    }
+}
